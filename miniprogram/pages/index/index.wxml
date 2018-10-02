@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+
+
+
+  <!-- 上传图片 -->
+  <view class="uploader">
+    <view class="uploader-text" bindtap="test2">
+      test2
+    </view>
+  </view>
+
+
+</view>

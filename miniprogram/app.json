@@ -1,0 +1,43 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/Order/Order",
+    "pages/ShoppingCart/ShoppingCart",
+    "pages/Menu/Menu",
+    "pages/Mine/Mine"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#9cbf41",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页"
+      
+    },
+    {
+      "pagePath": "pages/Menu/Menu",
+      "text": "菜单"
+    },
+    {
+      "pagePath": "pages/Order/Order",
+      "text": "订单"
+    },
+    {
+      "pagePath": "pages/ShoppingCart/ShoppingCart",
+      "text": "购物车"
+    },
+    {
+      "pagePath": "pages/Menu/Menu",
+      "text": "我的"
+    }
+    ]
+  }
+}
