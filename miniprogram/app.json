@@ -19,24 +19,34 @@
     "list": [
       {
       "pagePath": "pages/index/index",
-      "text": "首页"
+      "text": "首页",
+      "iconPath": "images/ico-home.png",
+      "selectedIconPath": "images/ico-home-v.png"
       
     },
     {
       "pagePath": "pages/Menu/Menu",
-      "text": "菜单"
+      "text": "菜单",
+      "iconPath": "images/ico-menu.png",
+      "selectedIconPath": "images/ico-menu-v.png"
     },
     {
       "pagePath": "pages/Order/Order",
-      "text": "订单"
+      "text": "订单",
+      "iconPath": "images/ico-order.png",
+      "selectedIconPath": "images/ico-order-v.png"
     },
     {
       "pagePath": "pages/ShoppingCart/ShoppingCart",
-      "text": "购物车"
+      "text": "购物车",
+      "iconPath": "images/ico-shoppingcart.png",
+      "selectedIconPath": "images/ico-shoppingcart-v.png"
     },
     {
       "pagePath": "pages/Menu/Menu",
-      "text": "我的"
+      "text": "我的",
+      "iconPath": "images/ico-mine.png",
+      "selectedIconPath": "images/ico-mine-v.png"
     }
     ]
   }
