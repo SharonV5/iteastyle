@@ -8,6 +8,12 @@ Page({
     logged: false,
     takeSession: false,
     requestResult: '',
+
+
+    staffA: { firstName: 'Hulk', lastName: 'Hu' },
+    staffB: { firstName: 'Shang', lastName: 'You' },
+    staffC: { firstName: 'Gideon', lastName: 'Lin' },
+
     movies: [
       { url: 'http://img04.tooopen.com/images/20130712/tooopen_17270713.jpg' },
       { url: 'http://img04.tooopen.com/images/20130617/tooopen_21241404.jpg' },
@@ -16,8 +22,9 @@ Page({
     ] 
   },
   
-  // onLoad: function () {
-  // },  
+  onLoad: function () {
+    // 页面渲染后 执行
+  },  
 
   Menu(){
     wx.navigateTo({
