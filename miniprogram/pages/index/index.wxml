@@ -8,25 +8,63 @@
    </block>  
 </swiper>
 
-<template name="staffName">
-  <view>
-    FirstName: {{firstName}}, LastName: {{lastName}}
-  </view>
-</template>
 
-<template is="staffName" data="{{...staffA}}"></template>
-<template is="staffName" data="{{...staffB}}"></template>
-<template is="staffName" data="{{...staffC}}"></template>
+<view class="door">
+  <view class="door-left">
+    <view class="door-left-top">
+      <view class="line"></view><text>现在下单</text>
+    </view>
+    <view class="door-left-bottom">Order Now</view>
+  </view>
+  <text class="iconfont icon-dingdan"></text>
+</view>
+<view class="down-line"></view>
+
+<view class="door">
+  <view class="door-left">
+    <view class="door-left-top">
+      <view class="line"></view><text>最新活动</text>
+    </view>
+    <view class="door-left-bottom">Latest Activity</view>
+  </view>
+  <text class="iconfont icon-icon-"></text>
+</view>
+<view class="down-line"></view>
+
+<view class="door">
+  <view class="door-left">
+    <view class="door-left-top">
+      <view class="line"></view><text>订单查询</text>
+    </view>
+    <view class="door-left-bottom">Order Inquire</view>
+  </view>
+  <text class="iconfont icon-sousuo"></text>
+</view>
+<view class="down-line"></view>
+
+<view class="door">
+  <view class="door-left">
+    <view class="door-left-top">
+      <view class="line"></view><text>联系我们</text>
+    </view>
+    <view class="door-left-bottom">Contact Us</view>
+  </view>
+  <text class="iconfont icon-qunfengkefujingli"></text>
+</view>
+
 
 
 <!-- <view class="container">
 
-  上传图片
+  
   <view class="uploader">
     <view class="uploader-text" bindtap="test2">
       test2
     </view>
   </view>
+
 字体图标演示
 <text class="iconfont icon-gouwucheman" style='color:#7F8389;font-size:60rpx;'></text>
+
+
 </view> -->

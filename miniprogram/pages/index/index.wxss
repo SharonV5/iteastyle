@@ -4,10 +4,63 @@ page {
   background: #f6f6f6;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 
-.userinfo, .uploader, .tunnel {
+/* 轮播 */
+.swiper {
+ height: 400rpx;
+ width: 100%;
+}
+.swiper image {
+ height: 100%;
+ width: 100%;
+}
+/* 字体图标 */
+@import "../../css/iconfont.wxss";
+
+/* 首页入口 */
+.door{
+  width:90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:20px;
+  /* background-color: red; */
+}
+
+.line{
+  height:24px;
+  width:0px;
+  border:2px solid #9cbf41;
+  margin-right: 5px;
+}
+
+.door-left-top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.door-left-bottom{
+  font-size: 18px;
+  color:#9cbf41;
+  font-family: 'Times New Roman';
+}
+
+.iconfont{
+  font-size: 45px;
+  color:#9cbf41;
+}
+.down-line{
+  width:90%;
+  border-top:0.5px solid #e0e0e0;
+  margin-top:10px;
+}
+/* .userinfo, .uploader, .tunnel {
   margin-top: 40rpx;
   height: 140rpx;
   width: 100%;
@@ -134,15 +187,4 @@ page {
   font-size: 24rpx;
   line-height: 36rpx;
   word-break: break-all;
-}
-/* 轮播 */
-.swiper {
- height: 400rpx;
- width: 100%;
-}
-.swiper image {
- height: 100%;
- width: 100%;
-}
-/* 字体图标 */
-@import "../../css/iconfont.wxss";
+} */
