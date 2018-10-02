@@ -1,1 +1,0 @@
-# iteastyle-wechat
