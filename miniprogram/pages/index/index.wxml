@@ -1,14 +1,21 @@
 <!--index.wxml-->
-<view class="container">
 
+<swiper class="swiper" indicator-dots="true"   autoplay="true" interval="2500" duration="500">  
+   <block wx:for="{{movies}}" wx:for-index="index">  
+    <swiper-item>  
+     <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+    </swiper-item>  
+   </block>  
+</swiper>
 
+<!-- <view class="container">
 
-  <!-- 上传图片 -->
+  上传图片
   <view class="uploader">
     <view class="uploader-text" bindtap="test2">
       test2
     </view>
   </view>
-
-<text class="iconfont icon-gouwucheman">{{gouwucheman}}</text>
-</view>
+字体图标演示
+<text class="iconfont icon-gouwucheman" style='color:#7F8389;font-size:60rpx;'></text>
+</view> -->
