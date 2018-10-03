@@ -12,6 +12,7 @@ page {
 .swiper {
  height: 400rpx;
  width: 100%;
+ margin-bottom: 10px;
 }
 .swiper image {
  height: 100%;
@@ -27,12 +28,12 @@ page {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top:20px;
+  margin-top:10px;
   /* background-color: red; */
 }
 
 .line{
-  height:24px;
+  height:22px;
   width:0px;
   border:2px solid #9cbf41;
   margin-right: 5px;
@@ -43,16 +44,16 @@ page {
   flex-direction: row;
   align-items: center;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
 .door-left-bottom{
-  font-size: 18px;
+  font-size: 16px;
   color:#9cbf41;
   font-family: 'Times New Roman';
 }
 
 .iconfont{
-  font-size: 45px;
+  font-size: 40px;
   color:#9cbf41;
 }
 .down-line{
