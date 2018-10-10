@@ -1,1 +1,14 @@
 /* miniprogram/pages/Mine/Mine.wxss */
+
+/* 字体图标 */
+@import "../../css/iconfont.wxss";
+
+.information{
+  width:100%;
+  height:100px;
+  background: url(http://pazp3d0xt.bkt.clouddn.com/wechat-mine-background.png) ;
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  -moz-background-size:100% 100%;
+  /* color:#fff; */
+}

@@ -43,7 +43,7 @@
       "selectedIconPath": "images/ico-shoppingcart-v.png"
     },
     {
-      "pagePath": "pages/Menu/Menu",
+      "pagePath": "pages/Mine/Mine",
       "text": "我的",
       "iconPath": "images/ico-mine.png",
       "selectedIconPath": "images/ico-mine-v.png"
