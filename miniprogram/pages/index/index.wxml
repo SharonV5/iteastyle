@@ -9,7 +9,7 @@
 </swiper>
 
 
-<view class="door">
+<view class="door" bindtap='Menu11'>
   <view class="door-left">
     <view class="door-left-top">
       <view class="line"></view><text>现在下单</text>
@@ -18,9 +18,9 @@
   </view>
   <text class="iconfont icon-dingdan"></text>
 </view>
-<view class="down-line"></view>
+<!-- <view class="down-line"></view> -->
 
-<view class="door">
+<view class="door" bindtap='Activity'>
   <view class="door-left">
     <view class="door-left-top">
       <view class="line"></view><text>最新活动</text>
@@ -31,7 +31,7 @@
 </view>
 <view class="down-line"></view>
 
-<view class="door">
+<view class="door"  bindtap='Order11'>
   <view class="door-left">
     <view class="door-left-top">
       <view class="line"></view><text>订单查询</text>
@@ -42,7 +42,7 @@
 </view>
 <view class="down-line"></view>
 
-<view class="door">
+<view class="door door-last" bindtap='ContactUs'>
   <view class="door-left">
     <view class="door-left-top">
       <view class="line"></view><text>联系我们</text>

@@ -1,4 +1,4 @@
-// miniprogram/pages/Mine/Mine.js
+// miniprogram/pages/InvoiceManage/InvoiceManage.js
 Page({
 
   /**
@@ -62,27 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  // 页面跳转
-  AddressManage() {
-    wx.navigateTo({
-      url: '../AddressManage/AddressManage',
-    })
-  },
-  InvoiceManage() {
-    wx.navigateTo({
-      url: '../InvoiceManage/InvoiceManage',
-    })
-  },
-  HelpFeedback() {
-    wx.navigateTo({
-      url: '../HelpFeedback/HelpFeedback',
-    })
-  },
-  ContactUs() {
-    wx.navigateTo({
-      url: '../ContactUs/ContactUs',
-    })
-  },
+  }
 })

@@ -29,8 +29,19 @@ Page({
       url: '../Menu/Menu',
     })
   },
-  Order(){
+  Menu11() {
+    // console.log("hello");
+    wx.switchTab({
+      url: '../Menu/Menu',
+    })
+  },
+  Order: function(){
     wx.navigateTo({
+      url: '../Order/Order',
+    })
+  },
+  Order11() {
+    wx.switchTab({
       url: '../Order/Order',
     })
   },
@@ -43,6 +54,16 @@ Page({
     wx.navigateTo({
       url: '../Mine/Mine',
     })
-  }
+  },
+  Activity() {
+    wx.navigateTo({
+      url: '../Activity/Activity',
+    })
+  },
+  ContactUs() {
+    wx.navigateTo({
+      url: '../ContactUs/ContactUs',
+    })
+  },
 })
 

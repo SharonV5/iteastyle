@@ -1,7 +1,8 @@
 /**index.wxss**/
 
 page {
-  background: #f6f6f6;
+  /* background: #f6f6f6; */
+  background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,8 +29,13 @@ page {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top:10px;
-  /* background-color: red; */
+  /* margin-top:10px; */
+  border-bottom: 1px solid #e0e0e0;
+  /* background-color: #fff; */
+  height:60px;
+}
+.door-last{
+  border-bottom: none;
 }
 
 .line{
@@ -56,11 +62,11 @@ page {
   font-size: 40px;
   color:#9cbf41;
 }
-.down-line{
+/* .down-line{
   width:90%;
   border-top:0.5px solid #e0e0e0;
   margin-top:10px;
-}
+} */
 /* .userinfo, .uploader, .tunnel {
   margin-top: 40rpx;
   height: 140rpx;

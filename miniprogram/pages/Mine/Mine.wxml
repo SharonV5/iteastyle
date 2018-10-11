@@ -3,20 +3,20 @@
   <image class="head" src=""></image>
   <text class="name"></text>
 </view>
-<view class="manage">
-  <view class="manage-intro">
+<view class="manage" >
+  <view class="manage-intro" bindtap='AddressManage'>
     <text>地址管理</text>
     <text class='iconfont icon-you1'></text>
   </view>
-  <view class="manage-intro">
+  <view class="manage-intro" bindtap='InvoiceManage'>
     <text>发票管理</text>
     <text class='iconfont icon-you1'></text>
   </view>
-  <view class="manage-intro">
+  <view class="manage-intro" bindtap='HelpFeedback'>
     <text>帮助反馈</text>
     <text class='iconfont icon-you1'></text>
   </view>
-  <view class="manage-intro">
+  <view class="manage-intro" bindtap='ContactUs'>
     <text>联系我们</text>
     <text class='iconfont icon-you1'></text>
   </view>
