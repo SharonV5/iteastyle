@@ -12,3 +12,22 @@
   -moz-background-size:100% 100%;
   /* color:#fff; */
 }
+
+.manage{
+  width:90%;
+  margin: 0 auto;
+}
+.manage-intro{
+  height:50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+}
+.icon-you1{
+  color:#bbb;
+}
+.manage-intro:nth-last-child(1){
+  border-bottom:none;
+}

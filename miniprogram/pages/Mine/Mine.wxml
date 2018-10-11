@@ -1,11 +1,23 @@
 <!--miniprogram/pages/Mine/Mine.wxml-->
 <view class="information">
   <image class="head" src=""></image>
-  <text class="name">小春子乖乖～啊啊啊</text>
+  <text class="name"></text>
 </view>
-<view>
-  <view>
-  <text>地址管理</text>
-  <text class='iconfont icon-you1'></text>
+<view class="manage">
+  <view class="manage-intro">
+    <text>地址管理</text>
+    <text class='iconfont icon-you1'></text>
+  </view>
+  <view class="manage-intro">
+    <text>发票管理</text>
+    <text class='iconfont icon-you1'></text>
+  </view>
+  <view class="manage-intro">
+    <text>帮助反馈</text>
+    <text class='iconfont icon-you1'></text>
+  </view>
+  <view class="manage-intro">
+    <text>联系我们</text>
+    <text class='iconfont icon-you1'></text>
   </view>
 </view>
