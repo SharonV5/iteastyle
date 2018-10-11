@@ -1,1 +1,22 @@
 /* miniprogram/pages/Activity/Activity.wxss */
+
+.Activity-banner{
+  width:100%;
+  /* background-color: red; */
+  height:70px;
+}
+.activities-intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:15px;
+}
+.activities{
+  background-color: #fff;
+  width:90%;
+  height:130px;
+  border-radius: 8px;
+  box-shadow:1px 1px 10px 3px rgba(150, 150, 150, 0.6);
+  margin-bottom: 20px;
+}

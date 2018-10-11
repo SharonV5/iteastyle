@@ -1,2 +1,10 @@
 <!--miniprogram/pages/Activity/Activity.wxml-->
-<text>miniprogram/pages/Activity/Activity.wxml</text>
+<image class="Activity-banner" src="http://pazp3d0xt.bkt.clouddn.com/wechat-activity-background.png" mode="widthFix"></image>
+
+<view class="activities-intro">
+  <image class="activities" src="" mode="widthFix"></image>
+  <image class="activities" src="" mode="widthFix"></image>
+  <image class="activities" src="" mode="widthFix"></image>
+  <image class="activities" src="" mode="widthFix"></image>
+
+</view>
