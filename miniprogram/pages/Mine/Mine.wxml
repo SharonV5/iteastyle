@@ -3,7 +3,10 @@
   <image class="head" src=""></image>
   <text class="name"></text>
 </view>
-<view class="manage" >
+
+<view class="manage-foot">
+
+<view class="manage">
   <view class="manage-intro" bindtap='AddressManage'>
     <text>地址管理</text>
     <text class='iconfont icon-you1'></text>
@@ -20,4 +23,5 @@
     <text>联系我们</text>
     <text class='iconfont icon-you1'></text>
   </view>
+</view>
 </view>

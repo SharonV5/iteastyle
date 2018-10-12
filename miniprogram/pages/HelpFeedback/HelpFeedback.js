@@ -8,59 +8,39 @@ Page({
 
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  AboutShopping() {
+    wx.navigateTo({
+      url: './AboutShopping/AboutShopping',
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  AboutDistribution() {
+    wx.navigateTo({
+      url: './AboutDistribution/AboutDistribution',
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  AboutCommodity() {
+    wx.navigateTo({
+      url: './AboutCommodity/AboutCommodity',
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
+  AboutInvoice() {
+    wx.navigateTo({
+      url: './AboutInvoice/AboutInvoice',
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
+  Aboutcooperation() {
+    wx.navigateTo({
+      url: './Aboutcooperation/Aboutcooperation',
+    })
   },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
+  AboutFeedback() {
+    wx.navigateTo({
+      url: './AboutFeedback/AboutFeedback',
+    })
   },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  AboutUs() {
+    wx.navigateTo({
+      url: './AboutUs/AboutUs',
+    })
   }
 })

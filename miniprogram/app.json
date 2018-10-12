@@ -10,7 +10,14 @@
     "pages/ContactUs/ContactUs",
     "pages/AddressManage/AddressManage",
     "pages/InvoiceManage/InvoiceManage",
-    "pages/HelpFeedback/HelpFeedback"
+    "pages/HelpFeedback/HelpFeedback",
+    "pages/HelpFeedback/AboutUs/AboutUs",
+    "pages/HelpFeedback/AboutFeedback/AboutFeedback",
+    "pages/HelpFeedback/Aboutcooperation/Aboutcooperation",
+    "pages/HelpFeedback/AboutInvoice/AboutInvoice",
+    "pages/HelpFeedback/AboutCommodity/AboutCommodity",
+    "pages/HelpFeedback/AboutDistribution/AboutDistribution",
+    "pages/HelpFeedback/AboutShopping/AboutShopping"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

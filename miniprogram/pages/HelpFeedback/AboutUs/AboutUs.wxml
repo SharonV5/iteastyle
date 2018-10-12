@@ -1,0 +1,7 @@
+<!--miniprogram/pages/HelpFeedback/AboutUs/AboutUs.wxml-->
+<view class="aboutus">
+  <image class="iteastyle-logo" src='http://pazp3d0xt.bkt.clouddn.com/wechat-opaque-logo.png'></image>
+  <text  class="version">执贝小程序</text>
+  <text>版本号:1.0.0</text>
+  <text class="aboutus-foot">Copyright @ iteastyle.cn</text>
+</view>

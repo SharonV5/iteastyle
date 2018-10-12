@@ -1,0 +1,41 @@
+/* miniprogram/pages/HelpFeedback/AboutUs/AboutUs.wxss */
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: #d3d3d3;
+}
+
+.iteastyle-logo {
+  width: 70px;
+  height: 70px;
+  margin-top: 70px;
+}
+
+.aboutus-foot {
+  font-size: 10px;
+  position: absolute;
+  bottom:0;
+  height:30px;
+}
+
+.version {
+  margin-top: 10px;
+}
+
+.aboutus {
+  position:  relative;
+  height:  auto;
+  min-height:100%;
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: #d3d3d3;
+}

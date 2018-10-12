@@ -1,5 +1,8 @@
 /* miniprogram/pages/Mine/Mine.wxss */
 
+page {
+  background: #f6f6f6;
+}
 /* 字体图标 */
 @import "../../css/iconfont.wxss";
 
@@ -13,10 +16,15 @@
   /* color:#fff; */
 }
 
+.manage-foot{
+    background: #fff;
+}
 .manage{
   width:90%;
   margin: 0 auto;
+
 }
+
 .manage-intro{
   height:50px;
   display: flex;

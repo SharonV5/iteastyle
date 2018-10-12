@@ -1,2 +1,40 @@
 <!--miniprogram/pages/HelpFeedback/HelpFeedback.wxml-->
-<text>miniprogram/pages/HelpFeedback/HelpFeedback.wxml</text>
+<view class="HelpFeedback-top">
+
+<view class="help">
+  <view class="help-intro" bindtap='AboutShopping'>
+    <text>购买类</text>
+    <text class='iconfont icon-you1'></text>
+  </view>
+  <view class="help-intro" bindtap='AboutDistribution'>
+    <text>配送类</text>
+    <text class='iconfont icon-you1'></text>
+  </view>
+  <view class="help-intro" bindtap='AboutCommodity'>
+    <text>商品类</text>
+    <text class='iconfont icon-you1'></text>
+  </view>
+  <view class="help-intro" bindtap='AboutInvoice'>
+    <text>发票类</text>
+    <text class='iconfont icon-you1'></text>
+  </view>
+  <view class="help-intro" bindtap='Aboutcooperation'>
+    <text>合作类</text>
+    <text class='iconfont icon-you1'></text>
+  </view>
+  <view class="help-intro" bindtap='AboutFeedback'>
+    <text>意见反馈</text>
+    <text class='iconfont icon-you1'></text>
+  </view>
+  
+</view>
+</view>
+
+<view class="HelpFeedback-bottom">
+<view class="help-foot">
+<view class="help-intro" bindtap='AboutUs'>
+    <text>关于我们</text>
+    <text class='iconfont icon-you1'></text>
+  </view>
+  </view>
+  </view>
