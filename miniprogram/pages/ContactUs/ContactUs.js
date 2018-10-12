@@ -5,6 +5,37 @@ Page({
    * 页面的初始数据
    */
   data: {
+    imgalist: ['http://pazp3d0xt.bkt.clouddn.com/wechat-QRCode-left.png'],
+    imgalist2: ['http://pazp3d0xt.bkt.clouddn.com/wechat-QRCode-right.png'],
+  },
+
+  previewImage: function (e) {
+    wx.previewImage({
+      current: this.data.imgalist, // 当前显示图片的http链接   
+      urls: this.data.imgalist // 需要预览的图片http链接列表   
+    })
+    wx.getImageInfo({// 获取图片信息（此处可不要）
+      src: 'http://pazp3d0xt.bkt.clouddn.com/wechat-QRCode-left.png',
+      success: function (res) {
+        console.log(res.width)
+        console.log(res.height)
+      }
+    })
+
+  },
+
+  previewImage: function (e) {
+    wx.previewImage({
+      current: this.data.imgalist2, // 当前显示图片的http链接   
+      urls: this.data.imgalist2 // 需要预览的图片http链接列表   
+    })
+    wx.getImageInfo({// 获取图片信息（此处可不要）
+      src: 'http://pazp3d0xt.bkt.clouddn.com/wechat-QRCode-right.png',
+      success: function (res) {
+        console.log(res.width)
+        console.log(res.height)
+      }
+    })
 
   },
 

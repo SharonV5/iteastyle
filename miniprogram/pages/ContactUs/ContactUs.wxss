@@ -1,1 +1,68 @@
 /* miniprogram/pages/ContactUs/ContactUs.wxss */
+/* 字体图标 */
+@import "../../css/iconfont.wxss";
+
+.ContactUs-banner{
+  width:100%;
+}
+.contact{
+  width:288px;
+  margin:0 auto;
+  margin-top:15px;
+  font-size: 15px;
+
+}
+.contact-intro{
+   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.contact-intro .iconfont{
+  color:#9cbf41;
+  margin-right:5px;
+  font-size:20px;
+}
+.customer-service{
+  background-color: #9cbf41;
+  height:40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  margin-top:25px;
+  margin-bottom:25px;
+}
+.customer-service .iconfont{
+  font-size:20px;
+  margin-right:5px;
+}
+.contact-border{
+  border:1px solid #9cbf41;
+  height:120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.QRcode{
+  width:60px;
+  height:60px;
+  border:3px solid #cfdfaf;
+  margin-top:5px;
+}
+.vertical-line{
+  height:80px;
+  border:0.5px solid #9cbf41;
+  margin-left:35px;
+  margin-right:35px;
+}
+.contact-code{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-intro:nth-last-child(3){
+  margin-top:15px;
+}

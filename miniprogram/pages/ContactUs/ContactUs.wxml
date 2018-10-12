@@ -1,2 +1,67 @@
 <!--miniprogram/pages/ContactUs/ContactUs.wxml-->
-<text>miniprogram/pages/ContactUs/ContactUs.wxml</text>
+<image class="ContactUs-banner" src="http://pazp3d0xt.bkt.clouddn.com/wechat-contact-us-background.png" mode="widthFix"></image>
+
+<view class="contact">
+  <view class="contact-intro">
+    <text class='iconfont icon-gongsi'></text>
+    <text>杭州执贝科技有限公司</text>
+  </view>
+  <view class="contact-intro">
+    <text class='iconfont icon-zuojitianchong'></text>
+    <text>0571-83731743</text>
+  </view>
+  <view class="contact-intro">
+    <text class='iconfont icon-dianhua2'></text>
+    <text>15906631121</text>
+  </view>
+  <view class="contact-intro">
+    <text class='iconfont icon-dianhua2'></text>
+    <text>15858232263</text>
+  </view>
+  <view class="contact-intro">
+    <text class='iconfont icon-youjianduanxin'></text>
+    <text>iteastyle@126.com</text>
+  </view>
+  <view class="contact-intro">
+    <text class='iconfont icon-wangye'></text>
+    <text>http://www.iteastyle.cn</text>
+  </view>
+  <view class="contact-intro">
+    <text class='iconfont icon-myaddress'></text>
+    <text>浙江省杭州市民和路525号三宏国际8楼</text>
+  </view>
+  <view class="contact-intro">
+    <text class='iconfont icon-iconfontzhizuobiaozhun47'></text>
+    <text>更多详情请关注：</text>
+  </view>
+  <view class="contact-border">
+    <view class="contact-code">
+      <text>微信公众号</text>
+      <view   wx:for="{{imgalist}}" wx:for-item="image" class="previewimg">
+  <image class="QRcode" src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+</view>
+
+    </view>
+    <view class="vertical-line"></view>
+    <view class="contact-code">
+      <text>微信客服号</text>
+      <view   wx:for="{{imgalist2}}" wx:for-item="image" class="previewimg">
+  <image class="QRcode" src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+</view>
+    </view>
+  </view>
+  <view class="customer-service">
+    <text class='iconfont icon-kefu2'></text>
+    <text>在线客服</text>
+  </view>
+  
+  <!-- <contact-button class="customer-service"
+  type="default-light" 
+  size="20"
+  session-from="weapp"
+>
+
+</contact-button> -->
+
+</view>
+

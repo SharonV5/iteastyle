@@ -2,8 +2,6 @@
 
 .Activity-banner{
   width:100%;
-  /* background-color: red; */
-  height:70px;
 }
 .activities-intro{
   display: flex;
@@ -15,6 +13,7 @@
 .activities{
   background-color: #fff;
   width:90%;
+  /* 输入图片地址此高度去掉 */
   height:130px;
   border-radius: 8px;
   box-shadow:1px 1px 10px 3px rgba(150, 150, 150, 0.6);
