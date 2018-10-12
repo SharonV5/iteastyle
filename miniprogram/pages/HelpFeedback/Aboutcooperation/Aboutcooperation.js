@@ -1,4 +1,4 @@
-// miniprogram/pages/HelpFeedback/Aboutcooperation/Aboutcooperation.js
+// miniprogram/pages/HelpFeedback/AboutCooperation/AboutCooperation.js
 Page({
 
   /**

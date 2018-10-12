@@ -18,7 +18,7 @@
     <text>发票类</text>
     <text class='iconfont icon-you1'></text>
   </view>
-  <view class="help-intro" bindtap='Aboutcooperation'>
+  <view class="help-intro" bindtap='AboutCooperation'>
     <text>合作类</text>
     <text class='iconfont icon-you1'></text>
   </view>

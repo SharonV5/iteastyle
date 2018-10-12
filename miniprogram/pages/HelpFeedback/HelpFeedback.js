@@ -28,9 +28,9 @@ Page({
       url: './AboutInvoice/AboutInvoice',
     })
   },
-  Aboutcooperation() {
+  AboutCooperation() {
     wx.navigateTo({
-      url: './Aboutcooperation/Aboutcooperation',
+      url: './AboutCooperation/AboutCooperation',
     })
   },
   AboutFeedback() {

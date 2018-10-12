@@ -13,11 +13,10 @@
     "pages/HelpFeedback/HelpFeedback",
     "pages/HelpFeedback/AboutUs/AboutUs",
     "pages/HelpFeedback/AboutFeedback/AboutFeedback",
-    "pages/HelpFeedback/Aboutcooperation/Aboutcooperation",
     "pages/HelpFeedback/AboutInvoice/AboutInvoice",
     "pages/HelpFeedback/AboutCommodity/AboutCommodity",
     "pages/HelpFeedback/AboutDistribution/AboutDistribution",
-    "pages/HelpFeedback/AboutShopping/AboutShopping"
+    "pages/HelpFeedback/AboutShopping/AboutShopping",          "pages/HelpFeedback/AboutCooperation/AboutCooperation"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
