@@ -38,6 +38,21 @@ Page({
     })
 
   },
+  tel: function () {
+    wx.makePhoneCall({
+      phoneNumber: '0571-83731743',
+    })
+  },
+  tel2: function () {
+    wx.makePhoneCall({
+      phoneNumber: '15906631121',
+    })
+  },
+  tel3: function () {
+    wx.makePhoneCall({
+      phoneNumber: '15858232263',
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载

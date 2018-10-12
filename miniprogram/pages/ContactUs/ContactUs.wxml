@@ -6,15 +6,15 @@
     <text class='iconfont icon-gongsi'></text>
     <text>杭州执贝科技有限公司</text>
   </view>
-  <view class="contact-intro">
+  <view class="contact-intro" bindtap='tel'>
     <text class='iconfont icon-zuojitianchong'></text>
     <text>0571-83731743</text>
   </view>
-  <view class="contact-intro">
+  <view class="contact-intro" bindtap='tel2'>
     <text class='iconfont icon-dianhua2'></text>
     <text>15906631121</text>
   </view>
-  <view class="contact-intro">
+  <view class="contact-intro" bindtap='tel3'>
     <text class='iconfont icon-dianhua2'></text>
     <text>15858232263</text>
   </view>
@@ -55,6 +55,7 @@
     <text class='iconfont icon-kefu2'></text>
     <text>在线客服</text>
   </button> 
-  
+
 </view>
+
 
