@@ -50,18 +50,11 @@
 </view>
     </view>
   </view>
-  <view class="customer-service">
+  
+  <button class="customer-service" open-type="contact" session-from="weapp">
     <text class='iconfont icon-kefu2'></text>
     <text>在线客服</text>
-  </view>
+  </button> 
   
-  <!-- <contact-button class="customer-service"
-  type="default-light" 
-  size="20"
-  session-from="weapp"
->
-
-</contact-button> -->
-
 </view>
 
