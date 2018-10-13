@@ -1,1 +1,17 @@
 /* miniprogram/pages/HelpFeedback/AboutInvoice/AboutInvoice.wxss */
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact{
+  width:90%;
+  margin-top:20px;
+  display: flex;
+  flex-direction: column;
+}
+.answer{
+  color: #939393;
+}

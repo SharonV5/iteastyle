@@ -1,2 +1,10 @@
 <!--miniprogram/pages/HelpFeedback/AboutDistribution/AboutDistribution.wxml-->
-<text>miniprogram/pages/HelpFeedback/AboutDistribution/AboutDistribution.wxml</text>
+<view class="contact">
+  <text class="question">Q1、服务地区？</text>
+  <text class="answer">杭式下午茶目前支持杭州地区订购，全国其他地区暂未开通。</text>
+</view>
+
+<view class="contact">
+  <text class="question">Q2、送货是否免费？</text>
+  <text class="answer">杭州市区内免费送货，其他地区（余杭、萧山等）交通费另计。</text>
+</view>

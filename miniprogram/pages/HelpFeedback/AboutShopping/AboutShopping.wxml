@@ -1,2 +1,26 @@
 <!--miniprogram/pages/HelpFeedback/AboutShopping/AboutShopping.wxml-->
-<text>miniprogram/pages/HelpFeedback/AboutShopping/AboutShopping.wxml</text>
+<view class="contact">
+  <text class="question">Q1、服务地区？</text>
+  <text class="answer">杭式下午茶目前支持杭州地区订购，全国其他地区暂未开通。</text>
+</view>
+
+<view class="contact">
+  <text class="question">Q2、起订金额？</text>
+  <text class="answer">外卖500起送，茶歇订单1580元起订。</text>
+
+</view>
+
+<view class="contact">
+   <text class="question">Q3、最迟需要提前多久预订？</text>
+  <text class="answer">所有订单请提前48小时预约并支付预定金。</text>
+</view>
+
+<view class="contact">
+  <text class="question">Q4、高端个性化定制最迟需提前几天预订</text>
+  <text class="answer">高端个性化定制请提前7天预约。</text>
+</view>
+
+<view class="contact">
+  <text class="question">Q5、如遇意外解除合作，订金能否退回？</text>
+  <text class="answer">如在订购后解除订购，我们将按照实际制作量按比例扣除预定订金。</text>
+</view>

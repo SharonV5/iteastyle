@@ -1,2 +1,20 @@
 <!--miniprogram/pages/HelpFeedback/AboutCommodity/AboutCommodity.wxml-->
-<text>miniprogram/pages/HelpFeedback/AboutCommodity/AboutCommodity.wxml</text>
+<view class="contact">
+  <text class="question">Q1、供餐时长？</text>
+  <text class="answer">供餐限1-3小时。</text>
+</view>
+
+<view class="contact">
+  <text class="question">Q2、是否提供服务人员？</text>
+  <text class="answer">杭式下午茶提供茶歇现场服务人员，并提供现场摆盘服务、装饰布置等服务。所有现场餐饮用具均星级酒店用餐配制。</text>
+</view>
+
+<view class="contact">
+  <text class="question">Q3、可配备多少名服务员？</text>
+  <text class="answer">每100人增加1名服务员。</text>
+</view>
+
+<view class="contact">
+  <text class="question">Q4、如有物品损坏如何计算赔偿？</text>
+  <text class="answer">现场器具如有丢失损坏，100元金额以内属正常损耗，无须赔偿，100元金额以上需按器具价格进行赔偿。</text>
+</view>
