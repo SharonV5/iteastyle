@@ -1,2 +1,11 @@
 <!--miniprogram/pages/HelpFeedback/AboutFeedback/AboutFeedback.wxml-->
-<text>miniprogram/pages/HelpFeedback/AboutFeedback/AboutFeedback.wxml</text>
+<view class="feedback">
+  <view  class="feedback-problem">
+    <text>问题描述</text>
+    <textarea class="problem-textarea" value="{{value}}" placeholder="{{placeholder}}" maxlength="{{maxlength}}" focus="{{focus}}" auto-height="{{auto-height}}" show-confirm-bar="{{show-confirm-bar}}"></textarea>
+  </view>
+
+  <view  class="feedback-picture">
+    <text>上传图片</text>
+  </view>
+</view>

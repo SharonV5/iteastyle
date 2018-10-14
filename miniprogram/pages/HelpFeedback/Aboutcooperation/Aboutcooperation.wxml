@@ -1,2 +1,5 @@
 <!--miniprogram/pages/HelpFeedback/AboutCooperation/AboutCooperation.wxml-->
-<text>miniprogram/pages/HelpFeedback/AboutCooperation/AboutCooperation.wxml</text>
+<view class="contact">
+  <text class="question">Q1、</text>
+  <text class="answer"></text>
+</view>
