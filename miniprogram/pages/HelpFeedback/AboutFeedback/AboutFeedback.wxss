@@ -32,5 +32,4 @@ textarea{
   right: 6%;
   top: 215px;
   height:20px;
-  /* margin-top: 40px; */
 }
