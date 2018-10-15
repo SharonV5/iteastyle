@@ -16,7 +16,7 @@
 
     <view class="picture-head">
     <text>提供问题截图（选填）</text>
-    <text><text class="currentimgNumber">{{currentimgLen|0}}/{{maxpiece}}张</text></text>
+    <text><text class="currentimgNumber">{{imgNumber|0}}/{{maxpiece}}张</text></text>
     </view>
 
     <view class="picture-foot">
