@@ -1,5 +1,6 @@
 <!--miniprogram/pages/HelpFeedback/AboutFeedback/AboutFeedback.wxml-->
-<view class="feedback">
+
+<form class="feedback" bindsubmit="formSubmit">
   <view  class="feedback-problem">
     <text>问题描述</text>
     <view class="problem-textarea">
@@ -8,18 +9,30 @@
     </view>
   </view>
 
-<text>上传图片</text>
+  <text>上传图片</text>
 
   <view  class="feedback-picture">
     <view class="picture-intro">
+
+    <view class="picture-head">
+    <text>提供问题截图（选填）</text>
+    <text><text class="currentimgNumber">{{currentimgLen|0}}/{{maxpiece}}张</text></text>
+    </view>
+
+    <view class="picture-foot">
       <view class="educt_hasupload_pic" wx:for="{{evalList[0].tempFilePaths}}"  wx:key="index">
         <image src="{{item.pic}}" class="upload"></image>
         <image class="upload-deltel" src="../../../images/deltel.png" bindtap='clearImg' data-index="{{index}}"></image>
       </view>
+
       <view class="educt_upload_add" bindtap="joinPicture" data-index="{{0}}">
-      <text>+</text>
+        <text>+</text>
       </view>
     </view>
+
+    </view>
   </view>
+
+  <button formType="submit">提交</button>
   
-</view>
+</form>

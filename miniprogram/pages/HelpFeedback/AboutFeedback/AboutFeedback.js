@@ -15,6 +15,7 @@ Page({
     "adjust-position": true, // 键盘弹起时，是否自动上推页面
     "show-confirm-bar": true, //是否显示键盘上方带有”完成“按钮那一栏(貌似这里没用？)
     evalList: [{ tempFilePaths: [], imgList: [] }],
+    maxpiece:9,
   },
 
   handleContentInput: function (e) {
@@ -38,10 +39,10 @@ Page({
     var evalList = this.data.evalList;
     var that = this;
     var imgNumber = evalList[index].tempFilePaths;
-    if (imgNumber.length >= 3) {
+    if (imgNumber.length >= 9) {
       wx.showModal({
         title: '',
-        content: '最多上传三张图片',
+        content: '最多上传九张图片',
         showCancel: false,
       })
       return;
@@ -66,13 +67,13 @@ Page({
     var that = this;
     var evalList = this.data.evalList;
     wx.chooseImage({
-      count: 3,
+      count: 9,
       sizeType: ["original", "compressed"],
       sourceType: [type],
       success: function (res) {
         var addImg = res.tempFilePaths;
         var addLen = addImg.length;
-        if ((len + addLen) > 3) {
+        if ((len + addLen) > 9) {
           for (var i = 0; i < (addLen - len); i++) {
             var str = {};
             str.pic = addImg[i];
@@ -170,8 +171,10 @@ Page({
       imgPort = "";
     }
   },
-
-
+  //表单相关参数
+  formSubmit: function (e) {
+    console.log('form发生了submit事件，携带数据为：', e.detail.value)
+  },
   /**
    * 生命周期函数--监听页面加载
    */
