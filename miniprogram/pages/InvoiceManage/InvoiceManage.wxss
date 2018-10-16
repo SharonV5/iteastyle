@@ -1,1 +1,30 @@
 /* miniprogram/pages/InvoiceManage/InvoiceManage.wxss */
+page {
+  background: #f6f6f6;
+}
+/* 字体图标 */
+@import "../../css/iconfont.wxss";
+
+.manage-foot{
+    background: #fff;
+}
+.manage{
+  width:90%;
+  margin: 0 auto;
+
+}
+
+.manage-intro{
+  height:50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+}
+.icon-you1{
+  color:#bbb;
+}
+.manage-intro:nth-last-child(1){
+  border-bottom:none;
+}

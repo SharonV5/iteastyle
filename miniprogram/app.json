@@ -16,7 +16,12 @@
     "pages/HelpFeedback/AboutInvoice/AboutInvoice",
     "pages/HelpFeedback/AboutCommodity/AboutCommodity",
     "pages/HelpFeedback/AboutDistribution/AboutDistribution",
-    "pages/HelpFeedback/AboutShopping/AboutShopping",          "pages/HelpFeedback/AboutCooperation/AboutCooperation"
+    "pages/HelpFeedback/AboutShopping/AboutShopping",
+    "pages/HelpFeedback/AboutCooperation/AboutCooperation",
+    "pages/InvoiceManage/Billing/Billing",
+    "pages/InvoiceManage/BillingRecord/BillingRecord",
+    "pages/InvoiceManage/Invoice/Invoice",
+    "pages/InvoiceManage/BillingInstructions/BillingInstructions"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

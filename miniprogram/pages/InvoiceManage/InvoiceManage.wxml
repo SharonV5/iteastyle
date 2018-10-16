@@ -1,2 +1,23 @@
 <!--miniprogram/pages/InvoiceManage/InvoiceManage.wxml-->
-<text>miniprogram/pages/InvoiceManage/InvoiceManage.wxml</text>
+<view class="manage-foot">
+
+<view class="manage">
+  <view class="manage-intro" bindtap='Billing'>
+    <text>开具发票</text>
+    <text class='iconfont icon-you1'></text>
+  </view>
+  <view class="manage-intro" bindtap='BillingRecord'>
+    <text>开票记录</text>
+    <text class='iconfont icon-you1'></text>
+  </view>
+  <view class="manage-intro" bindtap='Invoice'>
+    <text>发票抬头</text>
+    <text class='iconfont icon-you1'></text>
+  </view>
+  <view class="manage-intro" bindtap='BillingInstructions'>
+    <text>开票须知</text>
+    <text class='iconfont icon-you1'></text>
+  </view>
+
+</view>
+</view>

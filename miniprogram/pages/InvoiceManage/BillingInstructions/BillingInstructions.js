@@ -1,4 +1,4 @@
-// miniprogram/pages/InvoiceManage/InvoiceManage.js
+// miniprogram/pages/InvoiceManage/BillingInstructions/BillingInstructions.js
 Page({
 
   /**
@@ -62,28 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  // 页面跳转
-  Billing() {
-    wx.navigateTo({
-      url: './Billing/Billing',
-    })
-  },
-  BillingRecord() {
-    wx.navigateTo({
-      url: './BillingRecord/BillingRecord',
-    })
-  },
-  Invoice() {
-    wx.navigateTo({
-      url: './Invoice/Invoice',
-    })
-  },
-  BillingInstructions() {
-    wx.navigateTo({
-      url: './BillingInstructions/BillingInstructions',
-    })
-  },
-
+  }
 })
