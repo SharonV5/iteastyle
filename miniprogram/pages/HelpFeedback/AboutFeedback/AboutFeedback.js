@@ -33,6 +33,22 @@ Page({
     });  
   },
 
+//图片计数
+  clearImg: function (e) {
+    // 获取输入框的内容
+    var value = e.detail.value;
+    // 获取输入框内容的长度
+    var len = parseInt(value.length);
+  },
+  clearImg(event) {
+    var value = event.detail.value,
+      len = parseInt(value.length);
+    let that = this;
+    this.setData({
+      imgNumber: len
+    });
+  },
+
   //添加图片
   joinPicture: function (e) {
     var index = e.currentTarget.dataset.index;
