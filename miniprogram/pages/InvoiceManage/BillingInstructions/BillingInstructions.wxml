@@ -1,2 +1,33 @@
 <!--miniprogram/pages/InvoiceManage/BillingInstructions/BillingInstructions.wxml-->
-<text>miniprogram/pages/InvoiceManage/BillingInstructions/BillingInstructions.wxml</text>
+<view class="billing-instructions">
+
+<view class="billing-instructions-intro">
+  <text class="billing-instructions-number">1.</text>
+  <text>您可在执贝小程序【我的】-【发票管理】中提交开票需求。仅支持1个月以内的订单开具发票。</text>
+</view>
+<view class="billing-instructions-intro">
+  <text class="billing-instructions-number">2.</text>
+  <text>提交开具发票后，执贝将在7个工作日内为您安排发票打印并寄出。</text>
+</view>
+<view class="billing-instructions-intro">
+  <text class="billing-instructions-number">3.</text>
+  <text>根据相关政策规定，发票内容仅支持开具“*餐饮服务*餐饮服务费”。</text>
+</view>
+<view class="billing-instructions-intro">
+  <text class="billing-instructions-number">4.</text>
+  <text>通过银行卡（包括信用卡和借记卡）和网上支付平台（包括支付宝和微信支付）支付的费用，可用于开具发票。以代金券、优惠券或营销活动支付或帝冲的费用，恕不能开具发票。</text>
+</view>
+<view class="billing-instructions-intro">
+  <text class="billing-instructions-number">5.</text>
+  <text>如您开具的发票用于企业报销，根据国家税务相关政策要求请填写纳税人识别号；如您的单位是非企业性质或您要求开具个人名义抬头，您可以选择“个人/非企业单位”的开票选项，则无需填写纳税人识别号。</text>
+</view>
+<view class="billing-instructions-intro">
+  <text class="billing-instructions-number">6.</text>
+  <text>如您错填发票抬头信息需要进行修改，请您及时联系执贝客服人员为您处理。</text>
+</view>
+<view class="billing-instructions-intro">
+  <text class="billing-instructions-number">7.</text>
+  <text>因您个人填写发票信息和快递信息有误等原因产生的发票退票及重寄的往来费用，需由您本人自行承担。</text>
+</view>
+
+</view>

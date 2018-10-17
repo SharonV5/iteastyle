@@ -1,5 +1,5 @@
 <!--miniprogram/pages/InvoiceManage/InvoiceManage.wxml-->
-<view class="manage-foot">
+<view class="invoice-manage">
 
 <view class="manage">
   <view class="manage-intro" bindtap='Billing'>
