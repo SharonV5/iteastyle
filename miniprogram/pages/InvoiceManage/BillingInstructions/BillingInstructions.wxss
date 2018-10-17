@@ -7,9 +7,10 @@ page {
   margin:0 auto;
   margin-top:15px;
   margin-bottom: 20px;
+  color: #939393;
 }
 .billing-instructions-intro{
-display: flex;
+  display: flex;
   flex-direction: row;
 }
 .billing-instructions-number{
