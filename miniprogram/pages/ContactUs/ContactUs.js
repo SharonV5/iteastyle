@@ -24,7 +24,7 @@ Page({
 
   },
 
-  previewImage: function (e) {
+  previewImage2: function (e) {
     wx.previewImage({
       current: this.data.imgalist2, // 当前显示图片的http链接   
       urls: this.data.imgalist2 // 需要预览的图片http链接列表   

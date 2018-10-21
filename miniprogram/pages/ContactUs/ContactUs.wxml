@@ -45,8 +45,8 @@
     <view class="vertical-line"></view>
     <view class="contact-code">
       <text>微信客服号</text>
-      <view   wx:for="{{imgalist2}}" wx:for-item="image" class="previewimg">
-  <image class="QRcode" src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+      <view   wx:for="{{imgalist2}}" wx:for-item="image2" class="previewimg2">
+  <image class="QRcode" src="{{image2}}" data-src="{{image2}}" bindtap="previewImage2"></image>
 </view>
     </view>
   </view>
